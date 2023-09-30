@@ -6,5 +6,9 @@ class Student:
     def disp(self):
         print(f" name :{self.name} and address :{self.address}")
         
+    def add_extra_future_ameen(self):
+        print("added feature by ameen hasan")
+        
 obj=Student()
 obj.disp()
+obj.add_extra_future_ameen()
